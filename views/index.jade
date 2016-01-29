@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Routes of api api/pokemons
+
+  ul
+    li get api/pokemons
+    li post api/pokemons
+    li getOne api/pokemons/:id
+    li put api/pokemons/:id
+    li delete api/pokemons/:id
+
